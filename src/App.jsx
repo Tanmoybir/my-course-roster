@@ -1,10 +1,13 @@
 
 import './App.css'
+import Courses from './componants/Courses/Courses'
+import Home from './componants/Home/Home'
 
 function App() {
   return (
     <>
-      <h1>Vite + React</h1>
+     <Home></Home>
+     <Courses></Courses>
     </>
   )
 }

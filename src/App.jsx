@@ -1,24 +1,38 @@
 
 import { useState } from 'react'
 import './App.css'
-import Bookmarks from './componants/Bookmarks/Bookmarks'
+// import Bookmarks from './componants/Bookmarks/Bookmarks'
 import Courses from './componants/Courses/Courses'
 import Home from './componants/Home/Home'
+import CalculationCard from './componants/calculationCard/calculationCard'
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
-  const [bookmarks,setBookmarks] =useState([])
+  const [calculationCard,setCalculationCard] =useState([])
 
-const handleAddBookmarks =(item) =>{
+const handleAddCard = item =>{
+ const isExist =calculationCard.find(element =>element.id === item.id);
  
-  const newItem =[...bookmarks,item]
-  setBookmarks(newItem)
+ let count =item.credit;
+
+ if (isExist){
+  return toast('already booked')
+ }else{
+calculationCard.forEach(element =>{
+  count += element.credit
+})
+console.log(count);
+  setCalculationCard([...calculationCard,item])
+ }
 }
   return (
     <>
      <Home></Home>
      <div className="md:flex max-w-screen-xl mx-auto my-6">
-     <Courses handleAddBookmarks={handleAddBookmarks}></Courses>
-     <Bookmarks bookmarks={bookmarks}></Bookmarks>
+     <Courses handleAddBookmarks={handleAddCard}></Courses>
+     <CalculationCard calculationCard={calculationCard}></CalculationCard>
+     <ToastContainer />
      </div>
     </>
   )

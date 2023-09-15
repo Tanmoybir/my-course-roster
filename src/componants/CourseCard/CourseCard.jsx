@@ -9,7 +9,7 @@ const CourseCard = ({course,handleAddBookmarks}) => {
                 <p className='font-normal text-sm mb-5'>{description}</p>
                 <div className="flex justify-between items-center mb-7">
                     <p className='font-medium text-base'>${price}</p>
-                    <p className='font-medium text-base'>{credit}</p>
+                    <p className='font-medium text-base'>Credit:{credit}hr</p>
                 </div>
                 <button onClick={() =>handleAddBookmarks(course)} className="bg-sky-500 px-24 rounded-lg py-3 ">Select</button>
             </div>

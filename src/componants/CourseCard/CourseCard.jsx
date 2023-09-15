@@ -3,7 +3,7 @@ const CourseCard = ({course,handleAddBookmarks}) => {
     const {image,title,description,credit,price} =course
     return (
         <div>
-            <div className="text-center bg-gray-200 shadow-lg rounded-lg mx-3 p-4 ">
+            <div className="text-center bg-gray-200 shadow-lg rounded-lg mx-3 p-4">
                 <img className='w-full mb-3' src={image} alt="" />
                 <h2 className='text-xl font-semibold mb-2'>{title}</h2>
                 <p className='font-normal text-sm mb-5'>{description}</p>

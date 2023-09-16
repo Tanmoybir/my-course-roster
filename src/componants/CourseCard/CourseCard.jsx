@@ -5,8 +5,8 @@ const CourseCard = ({course,handleAddBookmarks}) => {
         <div>
             <div className="text-center bg-gray-200 shadow-lg rounded-lg mx-3 p-4">
                 <img className='w-full mb-3' src={image} alt="" />
-                <h2 className='text-xl font-semibold mb-2'>{title}</h2>
-                <p className='font-normal text-sm mb-5'>{description}</p>
+                <h2 className='text-xl text-left font-semibold mb-2 h-14'>{title}</h2>
+                <p className='text-left font-normal text-sm h-28'>{description}</p>
                 <div className="flex justify-between items-center mb-7">
                     <p className='font-medium text-base'>${price}</p>
                     <p className='font-medium text-base'>Credit:{credit}hr</p>

@@ -11,7 +11,7 @@ import { ToastContainer, toast } from 'react-toastify';
 function App() {
   const [calculationCard,setCalculationCard] =useState([])
   const [totalCredit,setTotalCredit] =useState(0)
-  const [creditRemaining,setCreditRemaining] = useState(0)
+  const [creditRemaining,setCreditRemaining] = useState(20)
 
 const handleAddCard = item =>{
  const isExist =calculationCard.find(element =>element.id === item.id);
@@ -19,21 +19,25 @@ const handleAddCard = item =>{
  let count =item.credit;
 
  if (isExist){
-  return toast('already booked')
+  return toast('Already you have selected this course')
  }else{
 calculationCard.forEach(element =>{
   count += element.credit
 })
-setTotalCredit(count)
-const remainingCredit =20-count;
- setCreditRemaining(remainingCredit);
-if( totalCredit >20){
-  return toast('credit are complete')
+
+const remainingCredit =20 - count;
+
+if( creditRemaining <= 0){
+  return toast('Credit are complete')
+}else if(count >20){
+  return toast('You cannot acquire more than 20 credits')
 }else{
-  setCalculationCard([...calculationCard,item])
+  setTotalCredit(count)
+ setCreditRemaining(remainingCredit);
 }
+
  
- 
+setCalculationCard([...calculationCard,item])
  
  }
 }

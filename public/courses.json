@@ -3,7 +3,7 @@
         "id": 1,
         "image": "https://i.ibb.co/6rW10Lc/Rectangle-2-2.png",
         "title": "Introduction to C Programming",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "Introduction to C Programming is a beginner-friendly course that covers the fundamentals of the C programming language.",
         "price": 15000,
         "credit": 1
 
@@ -12,7 +12,7 @@
         "id": 2,
         "image": "https://i.ibb.co/NNtd5r2/Rectangle-2-3.png",
         "title": "Introduction to Algorithms",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "Introduction to Algorithms is a beginner-friendly course that delves into the fundamental concepts of the algorithm design and analysis.",
         "price": 25000,
         "credit": 2
 
@@ -21,7 +21,7 @@
         "id": 3,
         "image": "https://i.ibb.co/pR00Nws/Rectangle-2-4.png",
         "title": "Introduction to C++ for DSA",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "Introduction to C++ for DSA is a course designed to teach the C++ programming language within the context of data structures and algorithms.",
         "price": 10000,
         "credit": 10
 
@@ -30,7 +30,7 @@
         "id": 4,
         "image": "https://i.ibb.co/G30XCg8/Rectangle-3.png",
         "title": "Basic Data Structures",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "Basic Data Structures course provides a foundational understanding of essential data structures such as arrays, linked lists,stacks and queues ",
         "price": 35000,
         "credit": 5
 
@@ -39,7 +39,7 @@
         "id": 5,
         "image": "https://i.ibb.co/sJd4rZj/Rectangle-2.png",
         "title": "Introduction to OOP Python",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "Introduction to OOP Python course is designed to teach the principles and practices of OOP using the Python programming language.",
         "price": 19000,
         "credit": 5
 
@@ -48,7 +48,7 @@
         "id": 6,
         "image": "https://i.ibb.co/fSPCVwH/Rectangle-2-5.png",
         "title": "Software Engineering",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "Software Engineering course focuses on the systematic and disciplined approach to designing, developing and maintaining software systems.",
         "price": 23000,
         "credit": 2
 
@@ -57,7 +57,7 @@
         "id": 7,
         "image": "https://i.ibb.co/wR7M3LT/Rectangle-3-1.png",
         "title": "AWS, Cloud Computing",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "AWS Cloud Computing course provides a comprehensive introduction to Amazon Wev Services and Cloud Computing.",
         "price": 35000,
         "credit": 5
 
@@ -66,7 +66,7 @@
         "id": 8,
         "image": "https://i.ibb.co/HF7j6nw/Rectangle-2-1.png",
         "title": "Database (MySQL)",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "Database (MySQL) course is designed to teach students the fundamentals of database managrment using the MySQL relational database system.",
         "price": 19000,
         "credit": 5
 
@@ -75,7 +75,7 @@
         "id": 9,
         "image": "https://i.ibb.co/vkp91Gf/Rectangle-2-6.png",
         "title": "Problem-Solving Part",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "Problem-Solving Part course is designed to enhance your problem-solving skills through a structured curriculum.",
         "price": 23000,
         "credit": 2
 

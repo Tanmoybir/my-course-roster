@@ -1,5 +1,5 @@
 
-     T Course Platform
+  ## T Course Platform
 
 Welcome to the IT Course Platform, where you can embark on a journey to enhance your skills and knowledge in the field of Information Technology. We offer a diverse range of courses to cater to your learning needs. Here are some of our featured courses:
 
@@ -26,3 +26,23 @@ Each of our courses is carefully crafted to provide you with a comprehensive lea
 For more details about each course, pricing, and enrollment, please visit the respective course pages. If you have any questions or need assistance, don't hesitate to contact our support team.
 
 We look forward to helping you achieve your IT learning goals!
+# Assignment Project State Management
+
+This README.md file provides guidance on how to effectively manage the state of your assignment project.
+
+## Overview
+
+Managing the state of your assignment project is crucial for successful completion. This document outlines the key steps to achieve effective project state management.
+
+## Steps for Project State Management
+
+1. **Planning:** First I am thinking how can do this project.Just part by part i am doing assignment.
+
+2. **Task Tracking:** Use a task management tool or software to list all the tasks, their status, and priorities. This can be as simple as a to-do list or a more robust project management tool like Trello.
+
+3. **Time Management:** Allocate specific blocks of time for working on the assignment. Set aside focused periods to work on tasks, and avoid multitasking as it can lead to decreased productivity.
+
+
+## Contact Information
+
+If you have any questions or need assistance, feel free to contact us at [tanmoy@email.com](mailto:tanmoy@email.com).

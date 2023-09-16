@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 const CalculationCard = ({calculationCard,totalCredit,creditRemaining}) => {
     
     return (
-        <div className="md:w-1/3 lg:w-1/4">
+        <div className="md:w-1/3
+         lg:w-1/4">
             <div className='text-center bg-gray-200 shadow-lg rounded-lg mx-3 p-4 '>
             <div className="mb-3 pb-4 border-b border-solid border-slate-500">
             <h3>Credit Hour Remaining {creditRemaining} hr </h3>

@@ -13,7 +13,7 @@ const Courses = ({handleAddBookmarks}) => {
         .then(data =>setCourses(data))
     },[])
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:2/3 lg:w-3/4">
+        <div className="grid grid-cols-1  lg:grid-cols-3 gap-6 md:w-2/3 lg:w-3/4">
             {
                 courses.map(course => <CourseCard key={course.id} course={course} handleAddBookmarks={handleAddBookmarks}></CourseCard>)
             }

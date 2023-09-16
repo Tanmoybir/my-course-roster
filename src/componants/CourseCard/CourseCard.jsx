@@ -1,4 +1,7 @@
 import PropTypes from 'prop-types';
+
+// import {HiOutlineBookOpen } from 'react-icons/fa';
+import { FaBeer } from 'react-icons/fa';
 const CourseCard = ({course,handleAddBookmarks}) => {
     const {image,title,description,credit,price} =course
     return (
@@ -8,8 +11,12 @@ const CourseCard = ({course,handleAddBookmarks}) => {
                 <h2 className='text-xl text-left font-semibold mb-2 h-14'>{title}</h2>
                 <p className='text-left font-normal text-sm h-28'>{description}</p>
                 <div className="flex justify-between items-center mb-7">
-                    <p className='font-medium text-base'>${price}</p>
-                    <p className='font-medium text-base'>Credit:{credit}hr</p>
+                    <p className='font-medium text-base'><span className='text-2xl mr-3'>$</span>Price:{price}</p>
+                    <div className="flex justify-between">
+                        <button className='mr-3'><FaBeer></FaBeer></button>
+                        <button></button>
+                    <p className='font-medium text-base'> Credit:{credit}hr</p>
+                    </div>
                 </div>
                 <button onClick={() =>handleAddBookmarks(course)} className="bg-sky-500 px-24 rounded-lg py-3 ">Select</button>
             </div>
